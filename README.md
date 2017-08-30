@@ -1,24 +1,5 @@
-# README
+This is an app I'm working on to practice with JS & AJAX. It's a simple To Do app that keeps things as a Single Page Application (SPA).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Future modifications will be to work on the page design (Bootstrap), add more details to the tasks (possibly a date entered, date due and a completion status rating). Some advanced features can be an automated reminder notification when a task is stagnant for a certain amount of time or when it's close to being due.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!
