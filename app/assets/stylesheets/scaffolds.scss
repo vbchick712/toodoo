@@ -1,16 +1,16 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: #0C2044;
+  color: white;
   margin: 33px;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 pre {
@@ -20,20 +20,21 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #057bf8;
+  text-decoration: none;
 
   &:visited {
-    color: #666;
+    color: #4a46a2;
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: #e35af5;
   }
 }
 
 th {
   padding-bottom: 5px;
+  font-size: 15px;
 }
 
 td {
@@ -62,22 +63,26 @@ div {
   padding: 7px 7px 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
+}
 
-  h2 {
+h2 {
+    font-family: 'Just Me Again Down Here', cursive;
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
     font-size: 12px;
     margin: -7px -7px 0;
-    background-color: #c00;
     color: #fff;
-  }
-
-  ul li {
-    font-size: 12px;
-    list-style: square;
-  }
 }
+
+h6 {
+  font-weight: bold;
+}
+
+ul li {
+  font-size: 12px;
+  list-style: square;
+  }
 
 label {
   display: block;
