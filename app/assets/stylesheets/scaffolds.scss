@@ -1,4 +1,10 @@
+
+
 body {
+  background-image: url('toodoo_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #0C2044;
   color: white;
   margin: 33px;
@@ -14,7 +20,7 @@ p, ol, ul, td {
 }
 
 pre {
-  background-color: #eee;
+  // background-color: #eee;
   padding: 10px;
   font-size: 11px;
 }
