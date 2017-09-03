@@ -14,3 +14,26 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+// Trying jQuery to center background image
+
+// $(window).load(function() {
+//   var theWindow = $(window),
+//   $bg=$("#bg"),
+//   aspectRatio=$bg.width() / $bg.height();
+//
+//   function resizeBg() {
+//
+//     if((theWindow.width() / the Window.height()) < aspectRatio) {
+//       $bg
+//         .removeClass()
+//         .addClass('bgheight');
+//     } else {
+//       $bg
+//         .removeClass()
+//         .addClass('bgwidth');
+//     }
+//   }
+//
+//   theWindow.resize(resizeBg).trigger("resize");
+// });

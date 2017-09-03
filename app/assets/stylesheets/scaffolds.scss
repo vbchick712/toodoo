@@ -2,15 +2,30 @@
 
 body {
   background-image: url('black-chalkboard.jpg');
+  min-height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #0C2044;
-  color: white;
+  background-color: #4D4B4E;
+  color: #D9D7D9;
   margin: 33px;
   font-family: 'Finger Paint', cursive;
   font-size: 13px;
   line-height: 18px;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.bgwidth {
+  width: 100%;
+}
+
+.bgheight {
+  height: 100%;
 }
 
 p, ol, ul, td {
@@ -20,7 +35,7 @@ p, ol, ul, td {
 }
 
 div.container {
-  
+
 }
 
 pre {
@@ -30,15 +45,15 @@ pre {
 }
 
 a {
-  color: #057bf8;
+  color: #C2BDC0;
   text-decoration: none;
 
   &:visited {
-    color: #4a46a2;
+    color: #C2BDC0;
   }
 
   &:hover {
-    color: #e35af5;
+    color: #DECC90;
   }
 }
 
@@ -55,6 +70,10 @@ div {
   &.field, &.actions {
     margin-bottom: 10px;
   }
+}
+
+input#task_name {
+  width: 60%;
 }
 
 #notice {
