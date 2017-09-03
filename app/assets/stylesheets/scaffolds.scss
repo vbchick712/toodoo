@@ -1,14 +1,14 @@
 
 
 body {
-  background-image: url('toodoo_background.jpg');
+  background-image: url('black-chalkboard.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #0C2044;
   color: white;
   margin: 33px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Finger Paint', cursive;
   font-size: 13px;
   line-height: 18px;
 }
@@ -17,6 +17,10 @@ p, ol, ul, td {
   font-family: 'Just Me Again Down Here', cursive;
   font-size: 20px;
   line-height: 26px;
+}
+
+div.container {
+  
 }
 
 pre {
